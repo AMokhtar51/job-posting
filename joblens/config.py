@@ -11,4 +11,11 @@ DB_PATH = BASE_DIR / "data" / "db" / "jobs.db"
 REMOTIVE_URL = "https://remotive.com/api/remote-jobs"
 NINJA_URL = "https://api.openwebninja.com/jsearch/search-v2"
 NINJA_API_KEY = os.getenv("X-API-Key")
-NINJA_QUERIES = ["data scientist"]
+NINJA_QUERIES = [
+    "data scientist",
+    "data analyst",
+    "machine learning engineer",
+    "data engineer",
+    "AI engineer",
+    "python developer",
+]
